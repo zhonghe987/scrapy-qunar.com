@@ -1,0 +1,56 @@
+2014-11-06 10:14:49+0800 [scrapy] INFO: Scrapy 0.24.1 started (bot: webSpider)
+2014-11-06 10:14:49+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2014-11-06 10:14:49+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webSpider.spiders'], 'LOG_ENCODING': 'UTF-8', 'BOT_NAME': 'webSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'webSpider\\logs/p.log', 'DOWNLOAD_DELAY': 0.5}
+2014-11-06 10:14:49+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-06 10:14:49+0800 [scrapy] INFO: Enabled downloader middlewares: RetryMiddleware, RandomProxy, HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-06 10:14:49+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-06 10:14:50+0800 [scrapy] INFO: Enabled item pipelines: webMysqlPipeline
+2014-11-06 10:14:50+0800 [where] INFO: Spider opened
+2014-11-06 10:14:50+0800 [where] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-06 10:14:50+0800 [where] INFO: Closing spider (finished)
+2014-11-06 10:14:50+0800 [where] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 280,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 20565,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 6, 2, 14, 50, 895000),
+	 'item_scraped_count': 1,
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2014, 11, 6, 2, 14, 50, 511000)}
+2014-11-06 10:14:50+0800 [where] INFO: Spider closed (finished)
+2014-11-06 10:15:37+0800 [scrapy] INFO: Scrapy 0.24.1 started (bot: webSpider)
+2014-11-06 10:15:37+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2014-11-06 10:15:37+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webSpider.spiders'], 'LOG_ENCODING': 'UTF-8', 'BOT_NAME': 'webSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'webSpider\\logs/p.log', 'DOWNLOAD_DELAY': 0.5}
+2014-11-06 10:15:37+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-06 10:15:37+0800 [scrapy] INFO: Enabled downloader middlewares: RetryMiddleware, RandomProxy, HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-06 10:15:37+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-06 10:15:37+0800 [scrapy] INFO: Enabled item pipelines: webMysqlPipeline
+2014-11-06 10:15:37+0800 [where] INFO: Spider opened
+2014-11-06 10:15:37+0800 [where] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-06 10:15:39+0800 [where] INFO: Closing spider (finished)
+2014-11-06 10:15:39+0800 [where] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 280,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 20516,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 6, 2, 15, 39, 821000),
+	 'item_scraped_count': 1,
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2014, 11, 6, 2, 15, 37, 345000)}
+2014-11-06 10:15:39+0800 [where] INFO: Spider closed (finished)
