@@ -110,7 +110,7 @@ class webMysqlPipeline(object):
         #print item.keys()
         if 'detil_title' in  item.keys():
             tx.execute("update spider set introduce ='%s', allprice = '%s' where title = '%s'"%(item['introduce'],item['ticket_title'],item['detil_title']))
-        elif 'title' in item.keys():
+        if 'title' in item.keys():
             logo_url = [k.strip().split('/')[-1] for k in item['logo_url']]
             allItem = zip(item['title'],logo_url,item['price'],item['saleCount'],item['addressPoint'])
             dd = ["('%s','%s',%s,%s,'%s')" %d for d in allItem]
